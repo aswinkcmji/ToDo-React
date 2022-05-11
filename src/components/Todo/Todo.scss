@@ -1,0 +1,64 @@
+$background:#dc3546;
+$text:white;
+.todo-container{
+    color: $text;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 28rem;
+    border-radius: .5rem;
+}
+ul{
+    text-align: left;
+    padding: .1rem;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    background-color: $background;
+    border-radius: .2rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: .5rem;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+input{
+    outline: none;
+}
+.todo-input{background-color: $background;
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+
+}
+.add-todo{
+    
+    border-radius: .2rem;
+    width: 95%;
+    margin: .5rem;
+    padding: .5rem;
+    border: none;
+    box-sizing: border-box; 
+}
+ul li i{
+    margin: 0;
+    padding-top: .2rem;
+    text-align: right;
+    flex: 1;
+    
+}
+.todo-list{
+    margin-top: 1rem;
+    max-height: 25rem;
+    border-radius: .5rem;
+    background-color: $background;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    padding: .5rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: $background;
+    
+}
+

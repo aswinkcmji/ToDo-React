@@ -1,0 +1,10 @@
+$background:#dc3546f6;
+$text:#dc3545;
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: $background;
+}
+
